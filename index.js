@@ -24,7 +24,7 @@ document.querySelectorAll('nav a').forEach(link => {
   Currently, I'm living in Rajshahi, Bangladesh.
   My childhood was spent in a village.
   I'm a foodie and my favorite food is "Kacci Biriyani", a beef item with rice.
-  My hobbies are cooking, listening to music, and reading adventurous stories.
+  My hobbies are cooking, playing vedio games, and reading adventurous stories.
   I hope that's enough to know me.😊
   `
   
