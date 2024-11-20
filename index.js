@@ -20,7 +20,7 @@ document.querySelectorAll('nav a').forEach(link => {
   let textEl = document.getElementById("jstext")
   
   const text = `
-  I was born on 22 September 2002. 
+  I was born on 1 May 2003. 
   Currently, I'm living in Rajshahi, Bangladesh.
   My childhood was spent in a village.
   I'm a foodie and my favorite food is "Kacci Biriyani", a beef item with rice.
