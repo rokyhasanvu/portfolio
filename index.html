@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="images/icon.png" type="image/icon type">
+    <title>Portfolio of Rakibul</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">RAKIBUL</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#education" style="--i:3">Education</a>
+            <a href="#skill" style="--i:4">Skill</a>
+            <a href="#github" style="--i:5">GitHub</a>
+            <a href="#project" style="--i:6">Projects</a>
+            <a href="#contact" style="--i:7">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me!</h3>
+            <h1>Md Rakibul Islam</h1>
+            <h3>I'm a <span class="text"></span></h3>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/md-rakibul-islam-498418226/" target="_blank" style="--i:6"><i
+                        class='bx bxl-linkedin'></i></i></a>
+                <a href="https://github.com/rokyhasanvu" target="_blank" style="--i:7"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/roky.hasan.9081" target="_blank" style="--i:8"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://wa.me/8801772658462" target="_blank" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#about" class="box-btn">More About Me</a>
+            <a href="assets/resume_of_roky.pdf" download>
+                <button class="box-btn">Download CV</button>
+              </a>
+              
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/second-bg.png" alt="roky">
+        </div>
+        <div class="about-txt">
+            <h2>About <span>Me</span></h2>
+            <h4>Hey there, I am Rakibul.</h4>
+            <p>An undergraduate student in the Department of Computer Science and Engineering at Varendra University.
+                As a UI UX Designer,My experience spans Flutter app development and frontend web development, providing me with a solid
+                foundation in building robust applications.
+                With a strong desire to evolve in the tech industry, I aspire to become a software engineer after
+                graduation, where I can leverage my knowledge and skills to create innovative solutions.
+            </p>
+            <p id="jstext"></p>
+            <button class="box-btn" onclick="showText()">Read More</button>
+            <button class="box-btn" onclick="hideText()">Show Less</button>
+        </div>
+
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="sub-heading">Academic <span>Education</span></h1>
+        <div class="education-box">
+
+            <div class="education-info">
+                <div>
+                    <img src="assets/vu-logo.jpg" class="edlogo" alt="VU LOGO">
+                </div>
+                <div class="edinfo">
+                    <h1>Bachelor of Science in Computer Science & Engineering</h1>
+                    <h3>Varendra University</h3>
+                    <h5>2023-Present</h5>
+                </div>
+            </div>
+
+            <div class="education-info">
+                <div>
+                    <img src="assets/vobanigong.png" class="edlogo" alt="RUET LOGO">
+                </div>
+                <div class="edinfo">
+                    <h1>Higher Secondary School Certificate(Science)</h1>
+                    <h3>Bhawaniganj Goverment University Collage, Rajshahi</h3>
+                    <h5>2019-2021</h5>
+                </div>
+            </div>
+
+
+            <div class="education-info">
+                <div>
+                    <img src="assets/baigacha.png" class="edlogo" alt="RUET LOGO">
+                </div>
+                <div class="edinfo">
+                    <h1>Secondary School Certificate(Science)</h1>
+                    <h3>Baigacha High School</h3>
+                    <h5>2014-2019</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skill"></section>
+    <h1 class="sub-heading" id="skillhead">My <span>Skills</span></h1>
+    <section>
+        <div class="container1" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+
+                <div class="bar">
+                    <div class="info">
+                        <i style="color: #c95d2e;" class='bx bxl-html5'></i><span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <i style="color: #147bbc;" class='bx bxl-css3'></i><span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <i style="color: #b0bc1e;" class='bx bxl-javascript'></i><span>Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i style="color: #c32ec9;" class='bx bxl-c-plus-plus'></i><span>C/C++</span>
+                    </div>
+                    <div class="progress-line cc">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i style="color: #69bcbc;" class='bx bxl-flutter'></i><span>Dart</span>
+                    </div>
+                    <div class="progress-line dart">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Communication</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Team Work</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="tools">
+        <h1 class="sub-heading"> Languages & <span>Tools</span></h1><br>
+        <div class="tools-icon">
+            <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"
+                    width="40" height="40" />
+            </a>
+            <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                    alt="cplusplus" width="40" height="40" />
+            </a>
+            <a href="https://www.java.com" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                    alt="java" width="40" height="40" />
+            </a>
+            <a href="https://www.python.org" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                    alt="python" width="40" height="40" />
+            </a>
+            <a href="https://dart.dev/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg"
+                    alt="dart" width="40" height="40" />
+            </a>
+            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                    alt="html5" width="40" height="40" />
+            </a>
+            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                    alt="css3" width="40" height="40" />
+            </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                    alt="javascript" width="40" height="40" />
+            </a>
+            <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg"
+                    alt="firebase" width="40" height="40" />
+            </a>
+            <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+                    alt="git" width="40" height="40" />
+            </a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+                    alt="github" width="40" height="40" />
+            </a>
+            <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"
+                    alt="vscode" width="40" height="40" />
+            </a>
+            <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg"
+                    alt="android studio" width="40" height="40" />
+            </a>
+        </div>
+    </section>
+
+    <section class="github-info" id="github">
+
+        <h1 class="sub-heading">GitHub <span>Info</span></h1>
+
+        <div class="github-box">
+            <a href="https://github.com/rokyhasanvu/github-readme-stats">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rokyhasanvu&theme=dark&layout=compact"
+                    alt="Top Languages" />
+            </a>
+        </div> 
+
+        <div class="github-api-links">
+            <div class="github-box">
+                <img src="https://github-readme-stats.vercel.app/api?username=rokyhasanvu&show_icons=true&count_private=true&theme=nightowl"
+                    alt="rokyhasanvu" />
+            </div>
+        
+            <div class="github-box">
+                <a href="https://git.io/streak-stats"><img
+                        src="https://streak-stats.demolab.com?user=rokyhasanvu&theme=nightowl&card_width=467"
+                        alt="GitHub Streak" /></a>
+            </div>
+        </div>
+        <a href="pages/github.html" class="box-btn" target="_blank">More</a>
+    </section>
+
+    <section id="project">
+        <div class="projects">
+            <div class="container">
+                <h1 class="sub-heading">My <span>Projects</span></h1>
+                <div class="project-list">
+
+                    <div class="projectbox">
+                        <i class="bx bxl-android" style="color: #00eeff;"></i><i class="bx bxl-apple"
+                            style="color: #00eeff;"></i>
+                        <h2 class="debughead">WrTnM</h2>
+                        <p>A mobile app for formating and managing weekly tasks easily by weakdays(Build with Flutter).
+                            There are many interesting features like widget for selecting date and time, automatically
+                            sorting tasks by time for maintaining serial, etc.</p>
+                        <a href="https://github.com/rokyhasanvu/Weekly-Routine-Manager" target="_blank"
+                            class="read">Visite Repository</a>
+                    </div>
+
+                    <div class="projectbox">
+                        <div class="portfolioicon"><i class="bx bx-code" id="bxcode" style="color: #00eeff;"></i><i
+                                class='bx bx-world' id="bxworld" style='color:#00eeff'></i></div>
+                        <h2>Portfolio</h2>
+                        <p>A responsive and dynamic portfolio build with HTML 5, CSS 3, and Javascript.
+                            It contains necessary details using different animation and styling.
+                            Moreover, it has functionality to collect data from form and send it to a google sheet.
+                        </p>
+                        <a href="https://github.com/rokyhasanvu/Portfolio" target="_blank" class="read">Visite
+                            Repository</a>
+                    </div>
+
+                    <div class="projectbox">
+                        <i class="bx bx-crop" style="color: #00eeff;"></i><i class='bx bxs-terminal'
+                            style='color:#00eeff'></i>
+                        <h2 class="debughead">myCash</h2>
+                        <p>This C++ codebase visually demonstrates the background logic behind a mobile banking system
+                            using terminal.
+                            A special feature of this codebase is it can save all data permanently in a text file by
+                            generating a transaction ID.
+                        </p>
+                        <a href="https://github.com/rokyhasanvu/myCash" target="_blank" class="read">Visite Repository</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Reach me through different media and build something together.</p>
+            <div class="contact-list">
+                <li class="cntlistitm"><i class='bx bxs-send'></i>
+                    <p><a href="mailto:mdrokyhasan1@gmail.com">mdrokyhasan1@gmail.com</a></p>
+                </li>
+                <li class="cntlistitm"><i class='bx bx-phone'></i>
+                    <p>01772-658462</p>
+                </li>
+            </div>
+            <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/md-rakibul-islam-498418226/" target="_blank" style="--i:3"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.facebook.com/roky.hasan.9081" target="_blank" style="--i:4"><i
+                        class='bx bxl-facebook'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form id="myForm">
+                <input type="text" placeholder="Name" id="name" name="name" required>
+                <br>
+                <input type="email" placeholder="Email" id="email" name="email" required>
+                <br>
+                <input type="text" placeholder="Subject" id="subject" name="subject" required>
+                <br>
+                <textarea id="message" placeholder="Message" name="message" required></textarea>
+                <br>
+                <button type="submit" class="send">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed By Rakibul ⓒ 2024</p>
+    </div>
+    <a href="#home" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
